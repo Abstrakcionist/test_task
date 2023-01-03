@@ -1,0 +1,1496 @@
+html{
+    background-color: #F0F0F0;
+}
+
+body{
+    position: relative;
+    width: 380px;
+    height: 1717px;
+    
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+footer{
+    
+    position: absolute;
+    width: 380px;
+    height: 359px;
+    left: 0px;
+    top: 1358px;
+    border-radius: 10px;
+
+}
+
+.DOM_logo{
+    position: absolute;
+    left: 40.29%;
+    right: 40%;
+    top: 0%;
+    bottom: 60.38%;
+}
+
+.user_button{
+    /* Пользователь */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px;
+    gap: 10px;
+
+    position: absolute;
+    left: 73.53%;
+    right: 14.71%;
+    top: 0.94%;
+    bottom: 61.32%;
+
+    /* Цвета/Серый фон */
+
+    background: #F0F0F0;
+    border-radius: 8px;
+    
+    border-style: none;
+}
+
+.users{
+    width: 20px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.cart_button{
+    /* Корзина */
+
+
+    position: absolute;
+    left: 88.24%;
+    right: 0%;
+    top: 0.94%;
+    bottom: 61.32%;
+
+    /* Цвета/Серый фон */
+    border-style: none;
+    background: #F0F0F0;
+    border-radius: 8px;
+}
+
+.ellipse22{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 30px;
+    top: 6px;
+    border-radius: 100%;
+
+    /* Цвета/Красный */
+
+    background: #F84242;
+}
+
+.cart{
+    /* Cart */
+
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 11px;
+
+}
+
+.katalog_button{
+    /* Каталог */
+
+    border-style: none;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px;
+    gap: 10px;
+
+    position: absolute;
+    left: 0%;
+    right: 88.24%;
+    top: 0.94%;
+    bottom: 61.32%;
+
+    /* Цвета/Серый фон */
+
+    background: #F0F0F0;
+    border-radius: 8px;
+}
+
+.katalog{
+    /* Каталог */
+
+
+    width: 20px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu_button{
+    /* Меню */
+
+    border-style: none;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px;
+    gap: 10px;
+
+    position: absolute;
+    left: 14.71%;
+    right: 73.53%;
+    top: 0.94%;
+    bottom: 61.32%;
+
+    /* Цвета/Серый фон */
+
+    background: #F0F0F0;
+    border-radius: 8px;
+}
+
+.menu{
+    /* Menu */
+
+
+    width: 20px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+.search{
+    /* Search */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px 0px 16px;
+    gap: 12px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 52.83%;
+    bottom: 0%;
+
+    /* Цвета/Серый фон */
+
+    background: #F0F0F0;
+    border-radius: 4px;
+}
+
+.search_text{
+    width: 124px;
+    height: 24px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    display: flex;
+    align-items: center;
+
+    /* Цвета/Синеголобой */
+
+    color: #8D9EAF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Search_Icon{
+    /* Search Icon */
+
+
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.shapka{
+    position: absolute;
+    width: 340px;
+    height: 106px;
+    left: 20px;
+    top: 14px;
+}
+
+.banners{
+    position: absolute;
+    width: 380px;
+    height: 180px;
+    left: 0px;
+    top: 150px;
+    
+}
+
+.slider{
+    /* Слайдер */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 728px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+}
+
+.banner1{
+    /* Banner 1 */
+
+
+    width: 340px;
+    height: 180px;
+
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.opilka1{
+    /* f 1 */
+
+
+    position: absolute;
+    width: 122.16px;
+    height: 81.44px;
+    left: 99.7px;
+    top: 59.27px;
+
+    background: url(f.png);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+    transform: rotate(150deg);
+}
+
+.free_raspil{
+    position: absolute;
+    width: 294px;
+    height: 20px;
+    left: 23px;
+    top: 148px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    /* Цвета/Белый */
+
+    color: #FFFFFF;
+}
+
+.rectangle10{
+    /* Rectangle 10 */
+
+
+    position: absolute;
+    width: 340px;
+    height: 44px;
+    left: 340px;
+    top: 136px;
+
+    /* Цвета/Оранжевый */
+
+    background: #FA8A4B;
+    opacity: 0.8;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.opilka2{
+    /* suunnittelulomake_puu 1 */
+
+
+    position: absolute;
+    width: 97.77px;
+    height: 71.64px;
+    left: 94.81px;
+    top: 145.87px;
+
+    background: url(suunnittelulomake_puu.png);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+    transform: rotate(-73.46deg);
+}
+
+.banner1_background{
+    /* modern-white-home-interior-living-kichen-room-scaled 1 */
+
+
+    position: absolute;
+    width: 340px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+
+    background: url(1613627715_78-p-fon-dlya-prezentatsii-derevo-114.jpg);
+}
+
+.saw{
+    /* bf681650d28c8c4ce1ba7143dab229a9 1 */
+
+
+    position: absolute;
+    width: 283px;
+    height: 311px;
+    left: 192px;
+    top: 21px;
+
+    background: url(bf681650d28c8c4ce1ba7143dab229a9.png);
+
+}
+
+.popular{
+    /* Популярное */
+
+    
+    position: relative;
+    width: 380px;
+    height: 174px;
+    left: 0px;
+    top: 360px;
+
+}
+
+.popular_text{
+    /* Популярные категории */
+
+
+    position: absolute;
+    width: 210px;
+    height: 24px;
+    left: 20px;
+    top: 0px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+
+    /* Цвета/Черный */
+
+    color: #212324;
+}
+
+.slides{
+        /* Слайды */
+
+    
+    position: absolute;
+    width: 380px;
+    height: 130px;
+    left: 0px;
+    top: 44px;
+    
+
+}
+
+.slider2{
+    /* Слайдер */
+
+    
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 20px;
+    gap: 8px;
+
+    position: absolute;
+    width: 592px;
+    height: 130px;
+    left: 0px;
+    top: 20px;
+    
+
+}
+
+.card1{
+    /* Card 1 */
+
+
+    width: 132px;
+    height: 130px;
+    
+
+    background: #F9F9F9;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.stroimat_link{
+    position: absolute;
+    width: 120px;
+    height: 16px;
+    left: 32px;
+    top: 100px;
+    text-decoration: none;
+
+}
+
+.stroimat_text{
+    /* Ламинат Profield Parkett Шамон серый 9184-8 34 класс 3,84 м2 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+
+    /* Цвета/Черный */
+
+    color: #212324;
+}
+
+.stroimat_icon{
+    width: 64px;
+    height: 64px;
+    position: relative;
+    left: 34px;
+    top: 20px;
+    
+}
+
+.oboi_link{
+    position: relative;
+    width: 120px;
+    height: 16px;
+    
+    top: 100px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.oboi_text{
+    /* Ламинат Profield Parkett Шамон серый 9184-8 34 класс 3,84 м2 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+
+    /* Цвета/Черный */
+
+    color: #212324;
+}
+
+.oboi_icon{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 34px;
+    top: 7px;
+}
+
+.lighting_icon{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 26px;
+    top: 7px;
+}
+
+.lastest{
+    /* Вы недавно смотрели */
+
+    
+    position: absolute;
+    width: 380px;
+    height: 260px;
+    left: 0px;
+    top: 564px;
+}
+
+.lastest_text{
+    /* Вы недавно смотрели */
+
+
+    position: absolute;
+    width: 196px;
+    height: 24px;
+    left: 20px;
+    top: 0px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+
+    /* Цвета/Черный */
+
+    color: #212324;
+}
+
+.cards_slider{
+    /* Карточки слайдер */
+
+    
+    position: absolute;
+    width: 380px;
+    height: 216px;
+    left: 0px;
+    top: 64px;
+    
+}
+
+.cards{
+    /* Карточки */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 1060px;
+    height: 216px;
+    left: 20px;
+    top: 0px;
+}
+
+.card4{
+    /* Карточка 1 */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+
+    width: 340px;
+    height: 216px;
+
+    /* Цвета/Серый фон */
+
+    border: 1px solid #F0F0F0;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.content{
+    /* Контент */
+
+
+    width: 308px;
+    height: 184px;
+
+    position: relative;
+    
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.stickers{
+    /* Стикеры */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    position: absolute;
+    width: 58px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.new{
+    /* Новинка */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px 4px;
+    gap: 10px;
+
+    width: 58px;
+    height: 16px;
+
+    background: #4FC05A;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.new_text{
+    /* Новинка */
+
+    position: relative;
+    top: -8px;
+    left: 4px;
+    text-align: center;
+    vertical-align: center;
+    width: 50px;
+    height: 12px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+
+    text-transform: uppercase;
+
+    /* Цвета/Белый */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.photo{
+    /* Фото */
+
+
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.laminat{
+    /* 140302394_001 2 */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 4px;
+}
+
+.text{
+    /* текст */
+
+
+    /* Auto layout */
+    position: relative;
+    left: 96px;
+    top: -18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 212px;
+    height: 94px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.link{
+    /* Ссылка */
+
+
+    width: 212px;
+    height: 66px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.laminat_text{
+    /* Ламинат Profield Parkett Шамон серый 9184-8 34 класс 3,84 м2 */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* or 147% */
+
+
+    /* Цвета/Черный */
+
+    color: #212324;
+}
+
+.rating{
+    /* Rating Stars / 4.5 */
+    top: 75%;
+    position: absolute;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 4px;
+
+    width: 111px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.by{
+    /* цена в корзину */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 212px;
+    height: 90px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.prices{
+    /* Цены */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+
+    width: 212px;
+    height: 46px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.price{
+    /* цена */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    width: 199px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.laminat_price{
+    /* 8.459 ₽/м2 */
+    position: absolute;
+    left: 32%;
+    top: 37%;
+
+    width: 100px;
+    height: 24px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* Цвета/Черный */
+
+    color: #212324;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bonuses{
+    /* бонусы */
+    
+    position: relative;
+    left: 96px;
+    top: 2px;
+    width: 212px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bonuses_text{
+    /* +110 бонусов */
+
+
+    position: absolute;
+    width: 199px;
+    height: 20px;
+    left: 0px;
+    top: -25px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    
+
+    /* Цвета/Синеголобой */
+
+    color: #8D9EAF;
+}
+
+.add_to_cart{
+    /* Корзина */
+
+   
+    width: 212px;
+    height: 36px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.into_cart{
+    /* В корзину в карточке */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+
+    position: absolute;
+    width: 98px;
+    height: 36px;
+    left: 96px;
+    top: 148px;
+
+    background: #EEF0F3;
+    border-radius: 4px;
+}
+
+.v_corzinu{
+    /* В корзину */
+
+
+    width: 64px;
+    height: 18px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 154% */
+
+    display: flex;
+    align-items: center;
+
+    /* Цвета/Синий */
+
+    color: #4F738E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.like{
+    /* Избранное 2 */
+
+
+    position: absolute;
+    left: 87.5%;
+    right: 0.5%;
+    top: 16.67%;
+    bottom: 16.67%;
+}
+
+.like_icon{
+    /* Vector */
+
+
+position: absolute;
+left: 0px;
+right: 8.33%;
+top: 125px;
+bottom: 12.5%;
+
+/* Цвета/Синеголобой3 */
+
+
+}
+
+.bestsellers{
+    position: absolute;
+    top: 854px;
+    left: 0px;
+    height: 260px;
+    width: 380px;
+}
+
+.services{
+    
+    position: absolute;
+    top: 1144px;
+    left: 0px;
+    width: 380px;
+    height: 174px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+
+    /* Цвета/Черный */
+
+    color: #212324;
+}
+
+.services_text{
+    position: absolute;
+    width: 64.39px;
+    height: 24px;
+    top: 0px;
+    left: 18px;
+}
+
+.services_obj{
+    
+    position: relative;
+    width: 380px;
+    height: 130px;
+    top: 34px;
+    overflow: hidden;
+}
+
+.services_frame{
+    /* Frame 1 */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 598px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+}
+
+.services_card1{
+    /* Card 1 */
+
+
+    width: 132px;
+    height: 130px;
+    
+
+    background: #F9F9F9;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card_text{
+    /* Установка дверей */
+
+
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 32px;
+    top: 90px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* or 123% */
+
+    text-align: center;
+
+    /* Цвета/Черный */
+
+    color: #212324;
+}
+
+.d_doors{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 52px;
+    top: 18px;
+
+}
+
+.card2_text{
+    position: absolute;
+    width: 108px;
+    height: 16px;
+    left: 174px;
+    top: 98px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+
+    text-align: center;
+
+    /* Цвета/Черный */
+
+    color: #212324;
+}
+
+.l_room{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 196px;
+    top: 18px;
+
+}
+
+.card3_text{
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 316px;
+    top: 90px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* or 123% */
+
+    text-align: center;
+
+    /* Цвета/Черный */
+
+    color: #212324;
+}
+
+.gobbler{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 326px;
+    top: 18px;
+}
+
+.info{
+    /* О компании */
+    list-style-type: none;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    left: 52.63%;
+    right: 5.26%;
+    top: 39.55%;
+    bottom: 28.69%;
+}
+
+.info_text{
+    /* О компании */
+
+
+    width: 88px;
+    height: 20px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.info_li{
+    /* Наша компания Наши вакансии Контакты */
+
+
+    width: 160px;
+    height: 10px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+
+
+    /* Цвета/Синий */
+
+    color: #4F738E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.rectangle41{
+    /* Rectangle 41 */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 22.01%;
+
+    background: #F9F9F9;
+}
+
+.business{
+    /* Бизнесу */
+
+    list-style-type: none;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    left: 52.63%;
+    right: 5.26%;
+    top: 8.36%;
+    bottom: 67.69%;
+}
+
+.for_users{
+    /* Покупателям */
+    list-style-type: none;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    left: 5.26%;
+    right: 52.63%;
+    top: 8.36%;
+    bottom: 28.69%;
+
+}
+
+.signature{
+    /* © 2006-2022 Гипермаркет ДОМ */
+
+
+    position: absolute;
+    left: 5.26%;
+    right: 53.42%;
+    top: 83.29%;
+    bottom: 5.57%;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    display: flex;
+    align-items: center;
+
+    /* Цвета/Синий */
+
+    color: #4F738E;
+}
+
+.socials{
+    /* Соцсети */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    left: 52.63%;
+    right: 5.26%;
+    top: 83.29%;
+    bottom: 5.57%;
+
+}
+
+.insta{
+    /* instagram */
+
+
+    width: 40px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.banner2{
+    /* Banner 2 */
+
+
+    width: 340px;
+    height: 180px;
+
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
