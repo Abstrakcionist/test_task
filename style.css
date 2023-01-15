@@ -24,14 +24,15 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
 
 }
 
 .header_buttons{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    
+    
     width: 100%;
     height: 50%;
 }
@@ -81,6 +82,48 @@ header{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    margin: 4.5%;
     line-height: 24px;
     color: #8D9EAF;
+}
+
+.search_icon{
+    margin-right: 4.5%;
+}
+
+.banners{
+    width: 380px;
+    height: 180px;
+    background-color: grey;
+}
+
+.popular{
+    width: 380px;
+    height: 174px;
+    background-color: grey;
+}
+
+.lastes{
+    width: 380px;
+    height: 260px;
+    background-color: grey;
+}
+
+.bestsellers{
+    width: 380px;
+    height: 260px;
+    background-color: grey;
+}
+
+.services{
+    width: 380px;
+    height: 174px;
+    background-color: grey;
+}
+
+footer{
+    width: 380px;
+    height: 359px;
+    background-color: grey;
+    border-radius: 10px;
 }
