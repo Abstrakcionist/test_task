@@ -201,7 +201,7 @@ header{
     font-size: 13px;
     line-height: 16px;
     /* or 123% */
-
+    text-decoration: none;
     text-align: center;
 
     /* Цвета/Черный */
@@ -242,7 +242,7 @@ header{
 
 .item_card{
     width: 100%;
-    min-width: 100%;
+    min-width: 286px;
     border: 1px solid #F0F0F0;
     border-radius: 4px;
     padding: 16px;
@@ -398,6 +398,21 @@ footer{
     margin-bottom: 19px;
 }
 
+.first_steck{
+    display: flex;
+    flex-direction: column;
+}
+
+.second_steck{
+    display: flex;
+    flex-direction: column;
+}
+
+.third_steck{
+    display: flex;
+    flex-direction: column;
+}
+
 .secnd_third_stecks{
     display: flex;
     flex-direction: column;
@@ -423,7 +438,7 @@ footer{
     font-size: 14px;
     line-height: 28px;
     /* or 200% */
-
+    text-decoration: none;
 
     /* Цвета/Синий */
 
