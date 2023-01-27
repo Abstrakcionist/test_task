@@ -446,6 +446,10 @@ footer{
     color: #4F738E;
 }
 
+.footer_p:hover{
+    color: black;
+}
+
 .links{
     width: 100%;
     display: flex;
