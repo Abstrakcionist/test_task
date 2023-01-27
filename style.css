@@ -438,11 +438,8 @@ footer{
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    /* or 200% */
     text-decoration: none;
-
-    /* Цвета/Синий */
-
+    width: fit-content;
     color: #4F738E;
 }
 
@@ -450,6 +447,34 @@ footer{
     color: black;
     transition-duration: 0.3s;
     transform: scale(1.3);
+}
+
+.footer_p:nth-child(odd){
+    animation-name: rotation_left;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: 0s;
+    animation-play-state: running;
+}
+
+.footer_p:nth-child(even){
+    animation-name: rotation_right;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: 0s;
+    animation-play-state: running;
+}
+
+@keyframes rotation_left{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation_right{
+    to{
+        transform: rotate(-360deg);
+    }
 }
 
 .links{
