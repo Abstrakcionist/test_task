@@ -449,6 +449,7 @@ footer{
 .footer_p:hover{
     color: black;
     transition-delay: 0.3s;
+    transform: scale(1.3);
 }
 
 .links{
