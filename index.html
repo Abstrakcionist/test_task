@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM_main_page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Manrope' rel='stylesheet' type='text/css'>
 </head>
@@ -37,9 +38,17 @@
                 <button class="search_button" type="submit"><img src="images/search_icon.svg" alt=""></button>
             </div>
         </header>
-        <div class="banners">
-            <a href="" class="banner1"></a>
-            <a href="" class="banner2"></a>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href=""><img class="banner_img" src="images/Banner 1.png" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href=""><img class="banner_img" src="images/Banner 1.png" alt=""></a>
+                </div>
+                <div class="swiper-nextSlide"></div>
+                <div class="swiper-pervSlide"></div>
+            </div>
         </div>
         <div class="popular">
             <div class="popular_text">Популярные категории</div>
@@ -211,6 +220,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="swiper.js"></script>
 </body>
 </html>
