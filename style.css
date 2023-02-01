@@ -29,17 +29,36 @@ header{
 
 }
 
-.swiper{
+.swiper1{
     width: 100%;
     height: 180px;
     margin-bottom: 15px;
     margin-top: 15px;
 }
 
+.swiper1-wrapper{
+    width: 100%;
+}
+
 .banner_img{
     max-width: 100%;
     height: 100%;
     border-radius: 4px;
+}
+
+.swiper2{
+    width: 100%;
+    height: 216px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.swiper2-wrapper{
+    width: 100%;
+}
+
+.swiper2-slide{
+    max-width: 100%;
 }
 
 .header_buttons{
@@ -203,6 +222,7 @@ header{
 }
 
 .lastest_text{
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -227,8 +247,7 @@ header{
 }
 
 .item_card{
-    width: 100%;
-    min-width: 286px;
+    
     border: 1px solid #F0F0F0;
     border-radius: 4px;
     padding: 16px;
