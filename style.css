@@ -168,6 +168,21 @@ header{
     color: #212324;
 }
 
+.swiper3{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.swiper3-wrapper{
+    width: 100%;
+}
+
+.swiper3-slide{
+    max-width: 100%;
+}
+
 .card_slider{
     margin-top: 20px;
     width: 100%;
